@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Spotify APP</title>
+</head>
+<body>
+    <div class = "container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images\Bill Burr.png" alt="Bill Burr" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images\Hindsight.png" alt="Hindsight Podcast" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images\Joe Rogan.png" alt="Joe Rogan Podcast" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images\Kill Tony.png" alt="Kill Tony Comedy Sketch" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images\Modern Wisdon.png" alt="Modern Wisdom Podcast" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images\Morgan Wallen.png" alt="Morgan Wallen" class="gallery__img">
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="stopSnippet()">Stop Song</button>
+        </div>
+    </div>
+</body>
+</html>
